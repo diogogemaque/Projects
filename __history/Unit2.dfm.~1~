@@ -1,0 +1,23 @@
+object DataModule2: TDataModule2
+  OldCreateOrder = False
+  Height = 277
+  Width = 350
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'Database=cadastro'
+      'User_Name=root'
+      'DriverID=MySQL')
+    Left = 64
+    Top = 40
+  end
+  object FDPhysMySQLDriverLink1: TFDPhysMySQLDriverLink
+    VendorLib = 'C:\Program Files\MySQL\MySQL Router 8.0\lib\libmysql.dll'
+    Left = 96
+    Top = 136
+  end
+  object FDGUIxWaitCursor1: TFDGUIxWaitCursor
+    Provider = 'Forms'
+    Left = 208
+    Top = 88
+  end
+end

@@ -1,0 +1,37 @@
+unit Unit3_Despertador;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, Vcl.MPlayer;
+
+type
+  TForm3 = class(TForm)
+    Cronometro: TPanel;
+    ComboMin: TComboBox;
+    ComboSeg: TComboBox;
+    LabelHrs: TLabel;
+    LabelMin: TLabel;
+    LabelSeg: TLabel;
+    ComboHrs: TComboBox;
+    AtivaDesativa: TCheckBox;
+    Timer1: TTimer;
+    OpenDialog1: TOpenDialog;
+    Button1: TButton;
+    Shape1: TShape;
+    MediaPlayer1: TMediaPlayer;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form3: TForm3;
+
+implementation
+
+{$R *.dfm}
+
+end.

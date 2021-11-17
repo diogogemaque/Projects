@@ -1,0 +1,39 @@
+unit Unit3_CONVERSOR;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Mask, Vcl.ExtCtrls;
+
+type
+  TForm3 = class(TForm)
+    ContadorHora: TMaskEdit;
+    setup1: TButton;
+    setup2: TButton;
+    setup3: TButton;
+    Label1: TLabel;
+    Timer1: TTimer;
+    procedure setup1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form3: TForm3;
+  segundos, minutos, horas : integer;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm3.setup1Click(Sender: TObject);
+var segundos1: integer;
+begin
+  segundos1:= 8943
+  setup1.
+end;
+
+end.

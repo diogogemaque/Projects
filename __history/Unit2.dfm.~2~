@@ -1,0 +1,23 @@
+object DataModule2: TDataModule2
+  OldCreateOrder = False
+  Height = 277
+  Width = 350
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'Database=contato'
+      'User_Name=root'
+      'DriverID=MySQL')
+    Left = 200
+    Top = 40
+  end
+  object FDPhysMySQLDriverLink1: TFDPhysMySQLDriverLink
+    VendorLib = 'C:\Program Files\MySQL\MySQL Workbench 8.0\libxml2.dll'
+    Left = 56
+    Top = 64
+  end
+  object FDGUIxWaitCursor1: TFDGUIxWaitCursor
+    Provider = 'Forms'
+    Left = 88
+    Top = 152
+  end
+end

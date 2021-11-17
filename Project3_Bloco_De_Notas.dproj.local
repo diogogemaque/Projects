@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/11/16 00:51:36.000.988,=C:\Users\Elton\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2021/11/16 03:18:58.000.323,C:\Users\Elton\Documents\Embarcadero\Studio\Projects\Unit3_Bloco_De_Notas.pas=C:\Users\Elton\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2021/11/16 03:18:58.000.323,C:\Users\Elton\Documents\Embarcadero\Studio\Projects\Unit3_Bloco_De_Notas.dfm=C:\Users\Elton\Documents\Embarcadero\Studio\Projects\Unit3.dfm</Transaction>
+    <Transaction>2021/11/16 03:19:18.000.837,C:\Users\Elton\Documents\Embarcadero\Studio\Projects\Project3_Bloco_De_Notas.dproj=C:\Users\Elton\Documents\Embarcadero\Studio\Projects\Project3.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

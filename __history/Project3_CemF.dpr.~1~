@@ -1,0 +1,14 @@
+program Project3_CemF;
+
+uses
+  Vcl.Forms,
+  Unit3_CemF in 'Unit3_CemF.pas' {Form3};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm3, Form3);
+  Application.Run;
+end.

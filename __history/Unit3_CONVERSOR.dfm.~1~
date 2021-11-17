@@ -1,0 +1,84 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  Caption = 'Converte_Segundos'
+  ClientHeight = 201
+  ClientWidth = 447
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 168
+    Top = 76
+    Width = 73
+    Height = 27
+    Caption = 'Label1'
+  end
+  object ContadorHora: TMaskEdit
+    Left = 288
+    Top = 72
+    Width = 129
+    Height = 33
+    Alignment = taCenter
+    DoubleBuffered = False
+    EditMask = '!90:00:00;1;_'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    MaxLength = 8
+    ParentDoubleBuffered = False
+    ParentFont = False
+    TabOrder = 0
+    Text = '  :  :  '
+  end
+  object setup1: TButton
+    Left = 40
+    Top = 32
+    Width = 75
+    Height = 25
+    Caption = 'Setup1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+  end
+  object setup2: TButton
+    Left = 40
+    Top = 78
+    Width = 75
+    Height = 25
+    Caption = 'Setup2'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+  end
+  object setup3: TButton
+    Left = 40
+    Top = 128
+    Width = 75
+    Height = 25
+    Caption = 'Setup3'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+  end
+end

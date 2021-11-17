@@ -1,0 +1,39 @@
+unit Unit3_CemF;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls;
+
+type
+  TFormPrincipal = class(TForm)
+    Button1: TButton;
+    edit_Celsiu: TEdit;
+    txt_Celsius: TLabel;
+    memoResultado: TMemo;
+    pnlTopo: TPanel;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormPrincipal: TFormPrincipal;
+
+  txt_Fahrenheit, txt_Celsius: Real;
+
+
+implementation
+
+{$R *.dfm}
+
+procedure TFormPrincipal.Button1Click(Sender: TObject);
+begin
+    memoResultado.Lines.Add('O resultado da conversão é: ' + edit_Celsiu.Text +'F');
+
+end;
+
+end.

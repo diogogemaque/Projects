@@ -1,0 +1,30 @@
+unit Unit3_CONVERSOR;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Mask;
+
+type
+  TForm3 = class(TForm)
+    ContadorHora: TMaskEdit;
+    setup1: TButton;
+    setup2: TButton;
+    setup3: TButton;
+    Label1: TLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form3: TForm3;
+  segundos, minutos, horas : integer;
+
+implementation
+
+{$R *.dfm}
+
+end.

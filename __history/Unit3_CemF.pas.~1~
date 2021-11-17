@@ -1,0 +1,38 @@
+unit Unit3_CemF;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TForm3 = class(TForm)
+    Button1: TButton;
+    edit_Celsiu: TEdit;
+    edit_Fahrenheit: TEdit;
+    txt_Fahrenheit: TLabel;
+    txt_Celsius: TLabel;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form3: TForm3;
+
+  txt_Fahrenheit, txt_Celsius: Real;
+
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm3.Button1Click(Sender: TObject);
+begin
+    txt_Fahrenheit := (txt_Celsius * 1,8) + 32;
+end;
+
+end.

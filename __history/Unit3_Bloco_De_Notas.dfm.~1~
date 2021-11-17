@@ -1,0 +1,82 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  Caption = 'BLOCO DE NOTAS'
+  ClientHeight = 273
+  ClientWidth = 476
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  Position = poDesigned
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Memo1: TMemo
+    Left = 0
+    Top = 0
+    Width = 476
+    Height = 273
+    Align = alClient
+    TabOrder = 0
+    ExplicitLeft = 136
+    ExplicitTop = 88
+    ExplicitWidth = 185
+    ExplicitHeight = 89
+  end
+  object MainMenu1: TMainMenu
+    Left = 96
+    Top = 144
+    object Arquivo1: TMenuItem
+      Caption = 'Arquivo'
+      object novo: TMenuItem
+        Caption = 'Novo'
+        OnClick = novoClick
+      end
+      object abrir: TMenuItem
+        Caption = 'Abrir'
+        OnClick = abrirClick
+      end
+      object salvar: TMenuItem
+        Caption = 'Salvar'
+        OnClick = salvarClick
+      end
+      object SalvarComo1: TMenuItem
+        Caption = 'Salvar Como'
+        OnClick = SalvarComo1Click
+      end
+      object Fechar1: TMenuItem
+        Caption = 'Fechar'
+        OnClick = Fechar1Click
+      end
+    end
+    object Imprimir1: TMenuItem
+      Caption = 'Imprimir'
+      OnClick = Imprimir1Click
+    end
+    object Localizar1: TMenuItem
+      Caption = 'Localizar'
+    end
+    object Substituir1: TMenuItem
+      Caption = 'Substituir'
+    end
+    object Formatar1: TMenuItem
+      Caption = 'Formatar Fonte'
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    DefaultExt = '*.txt'
+    Filter = 'TXT|*.txt'
+    Left = 176
+    Top = 144
+  end
+  object SaveDialog1: TSaveDialog
+    DefaultExt = '*.txt'
+    Filter = 'TXT|*.txt'
+    Left = 248
+    Top = 144
+  end
+end
